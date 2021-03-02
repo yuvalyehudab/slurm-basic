@@ -36,7 +36,7 @@ Or, if you want:
 $ cat awesome.out awesome.err
 ```
 
-Bonus - replace your shell constantly:
+Bonus - replace your shell constantly:  
 1/ Run the following
 
 ```sh
@@ -44,5 +44,5 @@ $ bash
 $ printf "if (\$?prompt) then\n\t setenv SHELL /bin/bash\n\t exec \$SHELL\n endif\n" >> .tcshrc
 ```
 
-2/ Log out - you will need to logout twice \n
+2/ Log out - you will need to logout twice  
 3/ Now every time you log in you will get bash as your shell
