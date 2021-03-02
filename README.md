@@ -17,7 +17,9 @@ $ sinfo
 $ squeue
 ```
 
-There are 2 kinds of examples: 1/ simple python script 2/ python script inside a container
+There are 2 kinds of examples:  
+1/ simple python script  
+2/ python script inside a container
 
 1/ Simple python script:
 
