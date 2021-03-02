@@ -43,7 +43,7 @@ $ cat awesome.out awesome.err
 Edit the files docker.slurm and script.sh - change ```SCRIPT_PATH``` to its real directory, for example:
 
 ```sh
-SCRIPT_PATH=/home/<group>/user/slurm-basic
+SCRIPT_PATH=/home/<group>/<user>/slurm-basic
 ```
 Now run with:
 ```sh
@@ -52,9 +52,9 @@ sbatch docker.slurm
 Check the output and error just like in the previous example.  
 
 TODO: add slurm script in python - current are in bash. Use python.slurm  
-TODO: Organize everything in different directories
-TODO: Add tensorflow container example
-TODO: Automate path changing in containers
+TODO: Organize everything in different directories  
+TODO: Add tensorflow container example  
+TODO: Automate path changing in containers  
 
 Bonus - replace your shell constantly:  
 1/ Run the following
