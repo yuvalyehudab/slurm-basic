@@ -2,7 +2,7 @@
 basic project with slurm infrastructure - simple exaples
 
 
-## basic run steps
+## Preparation
 Clone the repository, and enter the dirctory:
 
 ```sh
@@ -17,7 +17,7 @@ $ w
 $ sinfo
 $ squeue
 ```
-
+## Basic run steps
 There are 2 kinds of examples:  
 1/ Simple python script  
 2/ Python script inside a container
@@ -51,6 +51,7 @@ sbatch docker.slurm
 ```
 Check the output and error just like in the previous example.  
 
+## Extra
 TODO: add slurm script in python - current are in bash. Use python.slurm  
 TODO: Organize everything in different directories  
 TODO: Add tensorflow container example  
