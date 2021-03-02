@@ -2,9 +2,9 @@
 
 #docker.slurm
 
-#SBATCH --job-name=awesome-docker
-#SBATCH --output=container.out
-#SBATCH --error=container.err
+#SBATCH --job-name=awesome
+#SBATCH --output=awesome.out
+#SBATCH --error=awesome.err
 #SBATCH --partition=studentbatch
 #SBATCH --time=1
 #SBATCH --signal=USR1@120
@@ -19,3 +19,5 @@ echo `pwd`
 SCRIPT_PATH=/specific/scratches/scratch/yuvalyehudab/slurm-basic
 
 srun easy_ngc --cmd ${SCRIPT_PATH}/script.sh pytorch/pytorch:latest
+
+echo 'finished slurm script'
