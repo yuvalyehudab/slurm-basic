@@ -8,6 +8,7 @@
 
 #SBATCH --array=0-3
 
-EXECUTABLE=/vol/scratch/yuvalyehudab/condor/sample1
+DIR=/vol/scratch/yuvalyehudab/slurm-basic/condor
+EXECUTABLE=${DIR}/sample.py
 
 srun ${EXECUTABLE}
