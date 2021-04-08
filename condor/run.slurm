@@ -6,9 +6,10 @@
 #SBATCH --time=15
 #SBATCH --partition=studentkillable
 
-#SBATCH --array=0-3
+#SBATCH --array=0,1
 
-DIR=/vol/scratch/yuvalyehudab/slurm-basic/condor
+DIR=`pwd`
 EXECUTABLE=${DIR}/sample.py
 
+srun echo ${DIR}
 srun ${EXECUTABLE}
