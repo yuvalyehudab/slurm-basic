@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -p studentkillable
+#SBATCH -p killable
 
 EXECUTABLE=/vol/scratch/yuvalyehudab/condor/sample1
 
