@@ -2,7 +2,7 @@
 
 ## Quick start
 
-on school server with slurm available (usually ubuntu 18.04):
+on school server with slurm available (usually ubuntu 18.04 - for example c-00[1-8]):
 
 ```sh
 
