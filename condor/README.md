@@ -1,6 +1,6 @@
 # running R scripts on TAU CS school servers
 
-## Quik start
+## Quick start
 
 on school server with slurm available (usually ubuntu 18.04):
 
