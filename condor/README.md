@@ -1,5 +1,7 @@
 # running R scripts on TAU CS school servers
 
+TODO: add test - script that does everything and prints success
+
 ## Quick start
 
 on school server with slurm available (usually ubuntu 18.04 - for example c-00[1-8]):
