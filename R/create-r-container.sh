@@ -3,9 +3,12 @@
 # name: create-r-container.sh
 # author: yuvalyehudab
 
-if [[ -z UDOCKER_DIR ]]; then
-    export UDOCKER_DIR=/vol/scratch/`whomai`/udocker
+if [[ -z ${UDOCKER_DIR} ]]; then
+    export UDOCKER_DIR=/vol/scratch/`whoami`/udocker
 fi
+
+udocker ps
+echo "${UDOCKER_DIR}"
 
 CONTAINER_EXIST=`udocker ps | grep r-container`
 
